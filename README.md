@@ -21,6 +21,6 @@ $parser = new OkmExportParser($okmFileContent);
 $parser->getHeader(); // returns header of OKM file as array
 $parser->getFooter(); // returns footer of OKM file as array
 $parser->getTurnover(); // returns turnover sentence of OKM file as array
-$parser->getTransaction(); // returns list of transactions as nested array
+$parser->getTransactions(); // returns list of transactions as nested array
 
 ```
