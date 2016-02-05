@@ -1,0 +1,21 @@
+{
+  "name": "jaromirnyklicek/okmexportparser",
+  "description": "OkmExportParser is single-class library for parsing exports from Komercni Banka in OKM (BEST KB) format.",
+  "keywords": ["okm", "best", "kb", "mojebanka", "parser"],
+  "homepage": "https://github.com/jaromirnyklicek/OkmExportParser",
+  "authors": [
+    {
+      "name": "Jaromir Nyklicek",
+      "email": "nyklicek@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require-dev": {
+    "nette/tester": "^1.6.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "C3poCz\\": "src/"
+    }
+  }
+}
