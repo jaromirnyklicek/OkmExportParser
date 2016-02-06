@@ -36,7 +36,6 @@ class OkmExportParser
 	public function getTransactions()
 	{
 		$this->checkParsed();
-		var_dump($this->transactions);
 		return $this->transactions;
 	}
 
