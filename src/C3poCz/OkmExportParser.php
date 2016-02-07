@@ -67,6 +67,7 @@ class OkmExportParser
 					break;
 			}
 		}
+		$this->parsed = TRUE;
 	}
 
 
